@@ -1,0 +1,25 @@
+#header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  background-color: #cdcdcd;
+}
+
+#header-logo {
+  margin: 30px;
+  margin-right: 100px;
+  background-color: #cdcdcd;
+}
+
+span{
+  margin: 30px;
+  background-color: #cdcdcd;
+  font-weight: bold;
+}
+
+.clicked {
+  background-color: #cdcdcd;
+  color: #F2911B;
+}

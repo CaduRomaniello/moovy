@@ -1,0 +1,19 @@
+nest new (project-name) => starts a new project
+
+nest g module (module-name) => creates a new module
+
+nest g controler (module-name) --no-spec => creates a new controller on this module and --no-spec doesnt create test files
+
+nest g service (module-name) --no-spec => creates a new service on this module and --no-spec doesnt create test files
+
+yarn add class-validator class-transformer => required packages to validation
+
+docker run --name (container-name) -p (host-port-number):(container-port-number) -e POSTGRES_PASSWORD=(postgres-password) -d postgres
+
+yarn add typeorm @nestjs/typeorm pg
+
+yarn add bcrypt
+
+yarn add @nestjs/jwt @nestjs/passport passport passport-jwt
+
+yarn add @types/passport-jwt

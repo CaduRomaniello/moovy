@@ -1,0 +1,39 @@
+.poster-container {
+  max-height: 225px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.movie-item-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.info-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+p {
+  margin: 0px;
+}
+
+.add-movie-btn {
+  color: white;
+  background-color: green;
+}
+.remove-movie-btn {
+  color: white;
+  background-color: red;
+}
